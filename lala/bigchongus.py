@@ -1,0 +1,2 @@
+def cheese():
+    print("Cheese")

@@ -1,7 +1,8 @@
 {% extends "base.html" %}
 {% block title %}Deposit{% endblock %}
 {% block head %}
-<source src="deposit.js">{% endblock %}
+<script src="{{ url_for('static', filename='js/deposit.js') }}"></script>
+{% endblock %}
 {% block content %}
 <h1>Deposit</h1>
 {% endblock %}

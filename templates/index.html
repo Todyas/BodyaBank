@@ -1,6 +1,6 @@
 {% extends "base.html" %}
 {% block head %}
-<script str="index.js"></script>
+<script src="{{ url_for('static', filename='js/index.js') }}"></script>
 {% endblock %}
 
 {% block title %}Home{% endblock %}
